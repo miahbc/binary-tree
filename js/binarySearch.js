@@ -1,5 +1,7 @@
-function binarySearch(){
+function binarySearch(num, arr){
   // Code goes here!
+  console.log(num)
+  console.log(arr)
 }
 
 var smallArray = [1,2,3,4,5]
