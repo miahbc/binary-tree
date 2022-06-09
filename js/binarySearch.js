@@ -1,7 +1,24 @@
 function binarySearch(num, arr){
   // Code goes here!
-  console.log(num)
-  console.log(arr)
+  // console.log(num)
+  // console.log(arr)
+  arr.sort()
+  if (arr.length == 0) {
+    return -1
+  }
+  else {
+    if (arr.length % 2 == 1) {
+      let middleValue = [arr.length - 1)/2]
+  } else {
+    let middleValue = [((arr.length/2)-1),((arr.length/2)+1)]
+  }
+  if (middleValue.includes(num)) {
+    return num
+  }
+  else {
+    
+  }
+
 }
 
 var smallArray = [1,2,3,4,5]
